@@ -26,3 +26,18 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body{
+  background-color: blue;
+}
+
+.youtube{
+  margin: 25px;
+  border: 5px grey dashed;
+}
+
+button{
+  font-size: 20px;
+  margin: 15px 15px 0px 15px;
+  padding: 10px 20px;
+}
