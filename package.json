@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jquery": "^3.3.1",
+    "jsonp": "^0.2.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-typeahead": "^2.0.0-alpha.8",
+    "react-typeahead-component2": "^0.10.2",
+    "react-youtube-autocomplete": "^1.0.20"
   },
   "scripts": {
     "start": "react-scripts start",

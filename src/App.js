@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Youtube from './Youtube.js';
+import YoutubeSearch from './YoutubeSearch.js';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         </header>
         <h1>Search Youtube Channel Name</h1>
         <Youtube />
+        <YoutubeSearch />
       </div>
     );
   }

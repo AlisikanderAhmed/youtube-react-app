@@ -87,7 +87,7 @@ class Youtube extends Component {
         <form onSubmit={this.handleSubmit} className="form">
           <label>
             <input type="text" className="form-input" value={this.state.value} onChange={this.handleChange} />
-          </label>
+          </label> <br></br>
           <button type="submit" className="form-button">Search</button>
         </form>
 
@@ -111,6 +111,8 @@ class Youtube extends Component {
           })
         }
         {this.frame}
+        <hr className="hr-extra"></hr>
+
       </div>
     );
   }

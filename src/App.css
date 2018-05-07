@@ -7,6 +7,7 @@
   left: -1000px;
   width: 100px;
   height: 75px;
+  top: 32px;
   -webkit-animation: slide 0.8s forwards;
   -webkit-animation-delay: 0.5s;
   animation: slide 0.8s forwards;
@@ -21,11 +22,11 @@
 }
 
 @-webkit-keyframes slide {
-100% { left: 57%; }
+100% { left: 58%; }
 }
 
 @keyframes slide {
-100% { left: 57%; }
+100% { left: 58%; }
 }
 
 .App-title {
@@ -44,7 +45,7 @@ body{
 }
 
 .form-input{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .form-button{
@@ -66,4 +67,8 @@ button{
 
 .form{
   margin: 20px;
+}
+
+.hr-extra{
+  margin-top: 20px;
 }
