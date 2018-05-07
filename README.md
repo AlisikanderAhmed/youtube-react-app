@@ -1,9 +1,5 @@
 # Youtube Channel Searcher, Using Youtube API and React
 
-#### NOTE: Django Admin User is as follows:
-    - Username: admin
-    - Password: notpassword
-
 ## This is a react application to show case the use of the Youtube API.
 ### Allows users to search a Channel Name and see the following information about the channel:
     -Channel Name
@@ -21,4 +17,4 @@
 
 **----------------------------------------------Current Demo----------------------------------------------**
 
-<a href="https://github.com/AlisikanderAhmed/CPS847-Group10-A3/blob/master/Django_A3/Images/DjangoDemo.gif"><img src="https://github.com/AlisikanderAhmed/CPS847-Group10-A3/blob/master/Django_A3/Images/DjangoDemo.gif"></a>
+<a href="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/demo.gif"><img src="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/demo.gif"></a>
