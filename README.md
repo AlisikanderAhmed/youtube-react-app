@@ -1,3 +1,24 @@
 # Youtube Channel Searcher, Using Youtube API and React
 
-## This is a react application to show case the use of the Youtube API. Allows users to search a channel Name and see channel information about that channel and also displays the 5 most recent videos posted by that channel.
+#### NOTE: Django Admin User is as follows:
+    - Username: admin
+    - Password: notpassword
+
+## This is a react application to show case the use of the Youtube API.
+### Allows users to search a Channel Name and see the following information about the channel:
+    -Channel Name
+    -Channel Icon
+    -Channel Created Date
+    -Channel description
+    -Subscriber Count
+    -Number of Comments made by the Channel
+    -Total Video Count
+    -Total View Count
+
+### Allows users to fetch the top 5 most recent videos from the Youtube channel
+### Also allows users to search youtube by replicating the autocomplete feature using google search
+
+
+**----------------------------------------------Current Demo----------------------------------------------**
+
+<a href="https://github.com/AlisikanderAhmed/CPS847-Group10-A3/blob/master/Django_A3/Images/DjangoDemo.gif"><img src="https://github.com/AlisikanderAhmed/CPS847-Group10-A3/blob/master/Django_A3/Images/DjangoDemo.gif"></a>
