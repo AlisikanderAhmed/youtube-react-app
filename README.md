@@ -18,7 +18,7 @@
 
 :arrow_down_small: Look Below for Demo's of each feature :arrow_down_small:
 
-**----------------------------------------------1. Channel Search Demo----------------------------------------------**
+**----------------------------------------------1. Channel Search Demo-------------------------------------------**
 
 <a href="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/channelDemo.gif"><img src="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/channelDemo.gif"></a>
 
@@ -26,6 +26,6 @@
 
 <a href="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/fetchDemo.gif"><img src="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/fetchDemo.gif"></a>
 
-**----------------------------------------------3. Video Search Demo----------------------------------------------**
+**----------------------------------------------3. Video Search Demo---------------------------------------------**
 
 <a href="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/videoDemo.gif"><img src="https://github.com/AlisikanderAhmed/youtube-react-app/blob/master/Images/videoDemo.gif"></a>
