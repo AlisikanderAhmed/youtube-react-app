@@ -3,42 +3,13 @@
 }
 
 .App-logo {
-  position: absolute;
-  left: -1000px;
-  width: 100px;
-  height: 75px;
-  top: 32px;
-  -webkit-animation: slide 0.8s forwards;
-  -webkit-animation-delay: 0.5s;
-  animation: slide 0.8s forwards;
-  animation-delay: 0.5s;
+  padding-left: 10px;
+  width: 45px;
+  height: 35px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 130px;
-  padding: 35px;
-  color: white;
-  margin-bottom: 15px;
-}
-
-@-webkit-keyframes slide {
-100% { left: 58%; }
-}
-
-@keyframes slide {
-100% { left: 58%; }
-}
-
-.App-title {
-  font-size: 1.8em;
-}
-
-.App-title-p{
-}
-
-.App-intro {
-  font-size: large;
+.navbar{
+  margin-bottom: 10px;
 }
 
 body{
@@ -60,6 +31,10 @@ body{
   border-radius: 10px;
 }
 
+.recent-h1{
+  padding-bottom: 5px;
+}
+
 .youtube{
   margin: 25px;
 }
@@ -68,7 +43,7 @@ button{
   background-color: #222;
   color: white;
   margin: 15px 15px 0px 15px;
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 .form{

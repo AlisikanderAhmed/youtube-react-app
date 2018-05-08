@@ -48,7 +48,6 @@ class Youtube extends Component {
 
   handleSubmit(event) {
     var channelurl = `https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&key=${API}&forUsername=`
-
     event.preventDefault();
 
     channelurl += this.state.value;
@@ -88,10 +87,18 @@ class Youtube extends Component {
 
     return(
       <div>
+        
         <form onSubmit={this.handleSubmit} className="form">
           <label>
-            <input type="text" className="form-input" value={this.state.value} onChange={this.handleChange} required/>
-          </label> <br></br>
+            <input type="text" className="form-input" value={this.state.value} onChange={this.handleChange} list="default-values"required/>
+          </label>
+
+          <datalist id="default-values">
+            <option value="Google" />
+            <option value="Ebay" />
+            <option value="PayPal" />
+          </datalist><br></br>
+
         <button type="submit" className="form-button" onClick={this.onClickHandler}>Search</button>
           {this.state.showResults ? results = (
               <div>
@@ -109,6 +116,7 @@ class Youtube extends Component {
         </form>
 
         <hr></hr>
+        <h1 className="recent-h1">Most Recent Youtube Videos</h1>
         <button onClick={this.clicked} className="form-button">Fetch Most Recent Videos</button>
         {
           this.state.resultyt.map((link, i) => {
