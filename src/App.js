@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Youtube from './Youtube.js';
 import YoutubeSearch from './YoutubeSearch.js';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {

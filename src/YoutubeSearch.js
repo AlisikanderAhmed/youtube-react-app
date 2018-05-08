@@ -52,7 +52,7 @@ class YoutubeSearch extends React.Component{
       <form action="">
         <h2>Youtube Video Search With Input Auto Complete</h2>
         <input type="text" className="form-input" id="youtube" /> <br></br>
-        <button id="submit">Search</button>
+        <button id="submit" className="form-button2">Search</button>
       </form>
 
       <hr></hr>

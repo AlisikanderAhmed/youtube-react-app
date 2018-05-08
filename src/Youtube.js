@@ -4,9 +4,6 @@ const API = 'AIzaSyAxjAvIUVI4pfPv1MF0mMefSqQ2PSy_GuQ'
 const result = 5;
 var results = '';
 
-var url = `https://www.googleapis.com/youtube/v3/search?key=${API}&part=snippet,id&order=date&maxResults=${result}&channelId=`
-var channelurl = `https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&key=${API}&forUsername=`
-
 class Youtube extends Component {
   state = { showResults: false};
 
@@ -30,6 +27,8 @@ class Youtube extends Component {
   }
 
   clicked(){
+    var url = `https://www.googleapis.com/youtube/v3/search?key=${API}&part=snippet,id&order=date&maxResults=${result}&channelId=`
+
     url+=this.state.channelid;
     fetch(url)
     .then((response) => response.json())
@@ -48,6 +47,7 @@ class Youtube extends Component {
   }
 
   handleSubmit(event) {
+    var channelurl = `https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&key=${API}&forUsername=`
 
     event.preventDefault();
 
@@ -109,7 +109,7 @@ class Youtube extends Component {
         </form>
 
         <hr></hr>
-        <button onClick={this.clicked}>Fetch Most Recent Videos</button>
+        <button onClick={this.clicked} className="form-button">Fetch Most Recent Videos</button>
         {
           this.state.resultyt.map((link, i) => {
             console.log(link);

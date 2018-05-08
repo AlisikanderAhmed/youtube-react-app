@@ -16,9 +16,10 @@
 
 .App-header {
   background-color: #222;
-  height: 100px;
-  padding: 20px;
+  height: 130px;
+  padding: 35px;
   color: white;
+  margin-bottom: 15px;
 }
 
 @-webkit-keyframes slide {
@@ -50,6 +51,13 @@ body{
 
 .form-button{
   text-align: center;
+  border-radius: 10px;
+}
+
+.form-button2{
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .youtube{
@@ -59,7 +67,6 @@ body{
 button{
   background-color: #222;
   color: white;
-  font-size: 20px;
   margin: 15px 15px 0px 15px;
   padding: 10px 20px;
 }
